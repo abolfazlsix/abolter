@@ -1,0 +1,131 @@
+.profilePage {
+  padding: 20px;
+  direction: rtl;
+}
+
+/********* HEADER *********/
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px #ddd;
+}
+
+.profileAvatar {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileInfo h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.editBtn,
+.saveBtn,
+.cancelBtn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.editBtn {
+  background: #3498db;
+  color: white;
+}
+
+.saveBtn {
+  background: #27ae60;
+  color: white;
+}
+
+.cancelBtn {
+  background: #e74c3c;
+  color: white;
+}
+
+.editInput {
+  font-size: 18px;
+  padding: 5px;
+  width: 160px;
+}
+
+/******** POSTS *********/
+.mypost {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nopost {
+  opacity: 0.6;
+}
+
+.postList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.postCard {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px #eee;
+}
+
+.postImage {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 7px;
+}
+
+.postActions {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.deleteBtn {
+  background: #fff;
+  color: #000;
+  display: flex;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.likebth{
+     background: #fff;
+  color: #000;
+  display: flex;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 780px) {
+  .postCard {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px #eee;
+   width: 100%;
+}
+.postImage {
+  width: 30%;
+  height: 30%;
+  border-radius: 12px;
+  margin-top: 7px;
+}
+}
